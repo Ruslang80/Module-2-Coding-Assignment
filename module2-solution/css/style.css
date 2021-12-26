@@ -26,7 +26,7 @@
             background-color: rgb(146, 146, 146);
             border: solid rgb(0, 0, 0) 1px;
             margin: 5%;
-            max-height: 160px;
+            max-height: 200px;
             overflow: hidden;
             position: relative;
         }
