@@ -1,0 +1,91 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: oblique;
+	letter-spacing: 0.5px;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.row {
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
+
+.title1 {
+	text-align: center;
+	font-size: 1.75rem;
+	font-weight: 700;
+}
+
+.block {
+	background-color: rgb(146, 146, 146);
+	border: solid rgb(0, 0, 0) 1px;
+	margin: 5%;
+	max-height: 200px;
+	overflow: hidden;
+	position: relative;
+}
+
+.maintext {
+	text-align: left;
+	padding: 20px 10px 10px 10px;
+}
+
+.name {
+	font-size: 1.25rem;
+	font-weight: 700;
+	border: solid rgb(0, 0, 0) 1px;
+	text-align: center;
+	width: 120px;
+	padding: 5px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	margin: 0px;
+}
+
+.chicken {
+	background-color: rgb(209, 159, 196);
+}
+
+.beef {
+	background-color: rgb(255, 0, 0);
+	color: rgb(255, 255, 255);
+}
+
+.sushi {
+	background-color: rgb(255, 229, 157);
+}
+
+@media (min-width: 992px) {
+	.block {
+		width: 23%;
+		float: left;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991.4px) {
+	.block1,
+	.block2 {
+		width: 40%;
+		float: left;
+	}
+
+	block2 {
+		clear: right;
+	}
+
+	.block3 {
+		width: 90%;
+	}
+}
+
+@media (max-width: 767px) {
+	.block {
+		width: 90%;
+		clear: right;
+	}
+}
